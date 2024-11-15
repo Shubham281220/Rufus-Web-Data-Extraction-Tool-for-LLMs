@@ -164,19 +164,3 @@ While the current implementation works well, here are some potential improvement
      ```python
      self.browser = self.playwright.chromium.launch(headless=False)
      ```
-
----
-
-## Final Remarks
-
-- **Code Quality**: The code is designed to be modular and flexible. The `scrape` function can easily be adapted to different websites or additional content extraction needs.
-- **Scalability**: The project structure is scalable, and you can add more functions (e.g., handling additional HTML tags or dynamic content loading).
-- **Submission**: This README, along with the project files, should be sufficient for submission. Make sure you upload the final working code to GitHub along with this documentation.
-
----
-
-This README is now ready for your project repository on GitHub. If you need to include additional steps or clarifications, you can always modify this document further.
-
-Let me know if you need any changes or additions!
-```
-
