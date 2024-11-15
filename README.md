@@ -1,6 +1,3 @@
-Sure! Here's the **README.md** file in Markdown format:
-
-```markdown
 # Rufus – Web Data Extraction Tool for LLMs
 
 ## Project Overview
