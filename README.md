@@ -15,10 +15,10 @@ Rufus is an intelligent web data extraction tool designed for use in Retrieval-A
 
 ### 1. **Set Up Virtual Environment**
 
-To ensure your project runs smoothly and avoids dependency conflicts, it's best to create and activate a virtual environment.
+To ensure the project runs smoothly and avoids dependency conflicts, it's best to create and activate a virtual environment.
 
 1. **Create a Virtual Environment**:
-   Open your terminal and run the following command:
+   Open the terminal and run the following command:
 
    ```bash
    python -m venv venv
@@ -37,7 +37,7 @@ To ensure your project runs smoothly and avoids dependency conflicts, it's best 
 
 ### 2. **Install Required Dependencies**
 
-Once the virtual environment is activated, you'll need to install the necessary dependencies.
+Once the virtual environment is activated, install the necessary dependencies.
 
 1. **Install Playwright and Other Libraries**:
 
@@ -51,7 +51,7 @@ Once the virtual environment is activated, you'll need to install the necessary 
 
 2. **Install Playwright Browsers**:
 
-   Playwright requires browser binaries to function. You can install them by running:
+   Playwright requires browser binaries to function. Can install them by running:
 
    ```bash
    playwright install
@@ -59,7 +59,7 @@ Once the virtual environment is activated, you'll need to install the necessary 
 
 ### 3. **Repository Structure**
 
-Your GitHub repository should have the following structure:
+The GitHub repository has the following structure:
 
 ```
 Rufus-Project/
@@ -137,18 +137,18 @@ The output from both scripts will be saved in JSON format:
 
 ## Improvements and Suggestions
 
-While the current implementation works well, here are some potential improvements you might want to consider:
+While the current implementation works well, here are some potential improvements which can be considered:
 
 1. **Add Logging**: 
-   - Although not necessary for the current version, adding logs would help you debug the scraping process, especially if you're dealing with large websites or complex scraping scenarios.
+   - Although not necessary for the current version, adding logs would help debug the scraping process, especially if dealing with large websites or complex scraping scenarios.
    - Use Python’s built-in `logging` library to log important actions like page visits, timeouts, and retries.
 
 2. **Implement Concurrency/Parallelism**:
-   - To make the scraper faster, you could implement parallel scraping using threads or multiprocessing. Playwright supports async operations, and you could switch to `asyncio` for more efficient crawling.
+   - To make the scraper faster, parallel scraping using threads or multiprocessing could be implemented. Playwright supports async operations, and you could switch to `asyncio` for more efficient crawling.
    - Consider using tools like `asyncio` or `concurrent.futures` to handle multiple requests simultaneously.
 
 3. **Improve Selective Scraping**:
-   - Instead of filtering by just a simple keyword match, you can use more advanced methods (e.g., regular expressions or AI-based models) to better extract content based on the user's prompt.
+   - Instead of filtering by just a simple keyword match, can use more advanced methods (e.g., regular expressions or AI-based models) to better extract content based on the user's prompt.
 
 4. **Error Handling Enhancements**:
    - Add more error handling for edge cases such as inaccessible pages, malformed URLs, or incomplete HTML content.
@@ -156,7 +156,7 @@ While the current implementation works well, here are some potential improvement
 
 5. **Rate Limiting**:
    - To prevent hitting websites too aggressively, implement rate limiting to avoid being blocked.
-   - You can add delays or random intervals between requests.
+   - Can add delays or random intervals between requests.
 
 6. **Headless Browser Configuration**:
    - If you'd like to see the scraping process visually, you can disable the headless mode (i.e., open the browser window during scraping).
